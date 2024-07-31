@@ -1,4 +1,4 @@
-# MERN USER
+#  USER
 
 ## How to run this app locally
 
