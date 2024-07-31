@@ -22,7 +22,6 @@ const Login = () => {
     const user = {
       email,
       password,
-      role,
     };
     login(user);
     navigate("/");

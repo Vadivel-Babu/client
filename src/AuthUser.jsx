@@ -5,7 +5,7 @@ import { AppContext } from "./context/AppContext";
 const AuthUser = ({ children }) => {
   const navigate = useNavigate();
 
-  const { user } = useContext < any > AppContext;
+  const { user } = useContext(AppContext);
 
   useEffect(() => {
     if (!user) {
