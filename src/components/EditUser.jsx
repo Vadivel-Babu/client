@@ -82,7 +82,7 @@ const EditUser = () => {
           active
         </Checkbox>
 
-        <div>
+        <div style={{ display: "flex", gap: "8px", flexWrap: "wrap" }}>
           <Button onClick={() => navigate(-1)}>Back</Button>
           <Button
             onClick={handleUpdateUser}
