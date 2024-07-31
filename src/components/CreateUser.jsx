@@ -66,6 +66,7 @@ const CreateUser = () => {
         </Checkbox>
 
         <div>
+          <Button onClick={() => navigate(-1)}>Back</Button>
           <Button onClick={handleAddUser} disabled={isPending} type="primary">
             {isPending ? "Creating..." : "Create User"}
           </Button>

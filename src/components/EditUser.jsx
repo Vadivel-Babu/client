@@ -83,6 +83,7 @@ const EditUser = () => {
         </Checkbox>
 
         <div>
+          <Button onClick={() => navigate(-1)}>Back</Button>
           <Button
             onClick={handleUpdateUser}
             disabled={isPending}
